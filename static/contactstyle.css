@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@700&family=Roboto:wght@300&display=swap');
+
+h1{
+    text-align: center;
+    /* font-style: var(--primary); */
+    margin: 15px 0px;
+    color: red;
+    text-shadow: 1px 1px black;
+    font-family: 'Caveat', cursive;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    /* display: block; */
+    width: 80%;
+    margin: 10px 0px;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    border-radius: 3px;
+    border: none;
+    border-bottom: 2px solid red;
+    font-family: 'Caveat', cursive;
+    outline: none;
+}
+.btn{
+    margin-top: 20px;
+    width: 15%;
+    font-size: 1.5rem;
+    border: none;
+    background: white;
+    border-bottom: 2px solid red;
+    color: #757575;
+    font-family: 'Caveat', cursive;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: rgb(255 0 0 / 23%);
+    color: black;
+}

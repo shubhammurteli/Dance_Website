@@ -1,0 +1,21 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar
+      div#logo 
+        img(src = "/static/logo.png")
+        | DA
+      ul
+        li #[a(href = "/") Home]
+        li #[a(href = "/") About]
+        li #[a(href = "/contact") Contact]
+        li #[a(href = "/") Batch Info]
+        li #[a(href = "/") Services]
+    block content
+    footer#footer
+      | &copy; 2020 Shubham Murteli

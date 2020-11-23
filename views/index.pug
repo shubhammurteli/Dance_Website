@@ -1,0 +1,46 @@
+doctype html
+html
+  head
+    title Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+      div#logo 
+        img(src = "/static/logo.png")
+        | DA
+      ul
+        li #[a(href = "/") Home]
+        li #[a(href = "/") About]
+        li #[a(href = "/") Contact]
+        li #[a(href = "/") Batch Info]
+        li #[a(href = "/") Services]
+    section#introSec
+      h1 Welcome to Dance Academy
+      h3 Eat Sleep Repeate
+    section#missSec
+      h1 Our mission
+      div.container
+        div.card 
+          h2 Dance Perfection
+          img(src="/static/dance1.png")
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, earum corrupti accusamus adipisci iure labore beatae vitae eaque nobis quo?
+        div.card 
+          h2 Free style Dancing
+          img(src="/static/dance2.png")
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quam obcaecati nulla dolorum minus fuga nesciunt modi eum? Earum, fugit!
+        div.card 
+          h2 Experts Workshops
+          img(src="/static/dance3.png")
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque esse! Dicta illo sapiente minima totam iusto sed, doloremque velit!
+    section#sponSec
+      h1 Our Sponsors
+      div#sponsors 
+        img(src="/static/company1.png",alt = "sponsor image",class = "sponimg")
+        img(src="/static/company2.png",alt = "sponsor image",class = "sponimg")
+        img(src="/static/company3.png",alt = "sponsor image",class = "sponimg")
+        img(src="/static/company4.png",alt = "sponsor image",class = "sponimg")
+    footer#footer
+      | &copy; 2020 Shubham Murteli
+    script
+      include ../static/index.js
